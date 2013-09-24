@@ -1,0 +1,146 @@
+{
+	"conferenceDate" : "23 September 2013",
+	"server": "http://stevenjamesgray.com:8889",
+	"programme": [
+		{
+			"title": "Registration, Tea and Coffee",
+			"presenter": "",
+			"type": "break",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 09:00:00",
+			"endTime": "23 September 2013, 10:00:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Welcome",
+			"presenter": "Mike Batty, Andy Hudson-Smith",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 10:00:01",
+			"endTime": "23 September 2013, 10:10:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Visualising Cities",
+			"presenter": "Mike Batty, Andy Hudson-Smith",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 10:10:01",
+			"endTime": "23 September 2013, 11:00:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Mapping London's Past and Future",
+			"presenter": "James Cheshire, Ollie O'Brien",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 11:00:01",
+			"endTime": "23 September 2013, 11:30:00",
+			"youtube_link" : "5EkxBgkAelE"
+		},
+		{
+			"title": "Modelling Transport Disruption from Big Data",
+			"presenter": "",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 11:30:01",
+			"endTime": "23 September 2013, 12:00:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Lunch",
+			"presenter": "",
+			"type": "break",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 12:00:01",
+			"endTime": "23 September 2013, 13:15:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Measuring and Modelling the UK City System ",
+			"presenter": "Elsa Arcaute, Jiaqiu Wang, Peter Ferguson",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 13:15:01",
+			"endTime": "23 September 2013, 13:45:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Future of Cities: Science, Policy & Planning ",
+			"presenter": "Alan Wilson",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 13:45:01",
+			"endTime": "23 September 2013, 14:15:00",
+			"youtube_link" : "5EkxBgkAelE"
+		},
+		{
+			"title": "Mapping and Modelling New Patterns of Urban Movement",
+			"presenter": "Martin Charlton, Chris Brunsden",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 14:15:01",
+			"endTime": "23 September 2013, 14:45:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Tea + Coffee",
+			"presenter": "",
+			"type": "break",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 14:45:01",
+			"endTime": "23 September 2013, 15:30:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "World Futures and Global Dynamics: Towards an Integrated Demonstration Model",
+			"presenter": "Rob Levy, Thomas Oléron Evans",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 15:30:01",
+			"endTime": "23 September 2013, 16:00:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Coding the City",
+			"presenter": "Martin Austwick, Richard Milton",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 16:00:01",
+			"endTime": "23 September 2013, 16:30:00",
+			"youtube_link" : ""
+		},
+		{
+			"title": "Closing Keynote Session: Simple Agents for Smart Cities",
+			"presenter": "Fabio Carrera, Stephen Guerin, Redfish",
+			"type": "session",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 16:30:01",
+			"endTime": "23 September 2013, 17:15:00",
+			"youtube_link" : "5EkxBgkAelE"
+		},
+		{
+			"title": "Wine Reception",
+			"type": "break",
+			"social_link": "", 
+			"web": "",
+			"startTime": "23 September 2013, 17:15:01",
+			"endTime": "23 September 2013, 20:30:00",
+			"youtube_link" : ""
+		}
+	]
+	
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>CASA Conference-Live</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap.icon-large.min.css" rel="stylesheet">
+
+    <link href="./assets/plugins/glyphicons/css/glyphicons.css" rel="stylesheet" />
+    <link href="./assets/plugins/glyphicons_halflings/css/halflings.css" rel="stylesheet" />
+    <link href="./assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./assets/js/html5shiv.js"></script>
+      <script src="./assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li> <a href='workshop.html'>Workshop</a></li>
+          <li> <a data-toggle="modal" href="#scheduleModal" id='schedule'>Schedule</a></li>
+        </ul>
+        <h3 class="text-muted">CASA Conference<sup>Live</sup></h3>
+      </div>
+
+      <div class="nowNext">
+        <h1 style="display:none;">Now: </h1>
+        <span class='currentSession'></span><br/> <span class='presenter'></span> <span class='time'></span>
+      </div>
+
+      <div class="jumbotron mainDisplay"></div>
+
+      <div class="nowNext">
+        <span class='clientsWatching'></span>
+      </div>
+
+      <div class="row social ">
+        <div class="col-lg-6">
+          <h4><i class="icon-twitter"></i> Twitter </h4>
+          <div id='tweetContent'>Loading ...</div>
+        </div>
+
+        <div class="col-lg-6">
+          <h4><i class="icon-google-plus"></i> Google+</h4>
+          <div id='gContent'>Loading ...</div>
+        </div>
+        
+      </div>
+
+      <div class="footer">
+        <p> Created by Steven Gray, UCL CASA, Powered by the <a href="http://download.bigdatatoolkit.org">BigDataToolkit</a> </p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <div class="modal fade" id="scheduleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Schedule</h4>
+          </div>
+          <div class="modal-body" id="scheduleInfo">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+  <script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/xdate.js"></script>
+  <script src="./js/cl.js"></script>
+</html>

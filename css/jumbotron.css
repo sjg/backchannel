@@ -1,0 +1,129 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal .modal-dialog { width: 800px; }
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.social {
+  margin: 40px 0;
+}
+.social p + h4 {
+  margin-top: 28px;
+}
+
+.social {
+  height: 300px;
+}
+
+.stbody{
+  min-height:70px;
+  margin-bottom:10px;
+  border-bottom: solid 1px rgba(0, 0, 0, .1);;
+}
+.stimg{
+  float:left;
+  height:50px;
+  width:50px;
+  border:solid 1px #dedede;
+  padding:5px;
+}
+.sttext{
+  margin-left:70px;
+  min-height:50px;
+  word-wrap:break-word;
+  overflow:hidden;
+  padding:5px;
+  display:block;
+  font-size: 10px;
+}
+
+h1{ 
+  display:inline; !important;
+  font-size: 22px;
+}
+
+.presenter{
+  text-transform:uppercase;
+  font-size: 18px;
+  color: rgba(0,0,0,.3);
+  margin-right: 10px;
+  
+}
+.currentSession{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nowNext{
+  margin-bottom: 20px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .social,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
